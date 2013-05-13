@@ -1,0 +1,100 @@
+// !$*UTF8*$!
+{
+	554DF6D221BDCEA642E90BD9 /* GiteoFinal Simulator */ = {
+		activeExec = 0;
+		executables = (
+			AED6729517418EF80066E9CD /* GiteoFinal Simulator */,
+		);
+	};
+	AED6729417418EF80066E9CD /* GiteoFinal */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GiteoFinal;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	AED6729517418EF80066E9CD /* GiteoFinal Simulator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "GiteoFinal Simulator";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	AED672B117418F200066E9CD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AED672B217418F200066E9CD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B3E9BFE0C66384F009D1E554 /* GiteoFinal */ = {
+		activeExec = 0;
+		executables = (
+			AED6729417418EF80066E9CD /* GiteoFinal */,
+		);
+	};
+	B4C2406A2ADD2541E178CF6D /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AED6729517418EF80066E9CD /* GiteoFinal Simulator */;
+		activeTarget = 554DF6D221BDCEA642E90BD9 /* GiteoFinal Simulator */;
+		codeSenseManager = AED672B217418F200066E9CD /* Code sense */;
+		executables = (
+			AED6729417418EF80066E9CD /* GiteoFinal */,
+			AED6729517418EF80066E9CD /* GiteoFinal Simulator */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 390172408;
+			PBXWorkspaceStateSaveDate = 390172408;
+		};
+		sourceControlManager = AED672B117418F200066E9CD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

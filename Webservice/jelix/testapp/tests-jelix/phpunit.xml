@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="bootstrap.php">
+  <testsuites>
+    <testsuite name="Jelix Core">
+      <directory>jelix/core/</directory>
+    </testsuite>
+    <testsuite name="Jelix Db">
+      <directory>jelix/db/</directory>
+    </testsuite>
+    <testsuite name="Jelix KVDb">
+      <directory>jelix/kvdb/</directory>
+    </testsuite>
+    <testsuite name="Jelix Installer">
+      <directory>jelix/installer/</directory>
+    </testsuite>
+    <testsuite name="Jelix Utils">
+      <directory>jelix/utils/</directory>
+    </testsuite>
+    <testsuite name="Jelix Forms">
+      <directory>jelix/forms/</directory>
+    </testsuite>
+    <testsuite name="Jelix Scripts">
+      <directory>jelix-scripts/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

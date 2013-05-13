@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+
+   <hidden ref="hiddenvalue" defaultvalue="my hidden value"/>
+    <group ref="identity">
+        <label>Your identity</label>
+
+        <input ref="nom" required="true">
+            <label>Your name</label>
+        </input>
+
+        <input ref="prenom" defaultvalue="robert">
+            <label>Your firstname</label>
+        </input>
+
+        <radiobuttons ref="sexe" required="true">
+            <label>You are </label>
+            <item value="h">a man</item>
+            <item value="f">a woman</item>
+            <item value="no">I don't know</item>
+            <alert type="required">You should indicate your sex, even if
+              you don't know :-)</alert>
+        </radiobuttons>
+        <input ref="mail" type="email">
+            <label>Your email</label>
+        </input>
+
+        <checkbox ref="geek">
+            <label>Are you a geek ?</label>
+            <help>A geek is a person which is extremely keen on computer science</help>
+            <hint>Check the box if you are a geek</hint>
+        </checkbox>
+    </group>
+
+  <menulist ref="conf" >
+      <datasource dao="testapp~config" method="findAll" labelproperty="cvalue" valueproperty="ckey" />
+      <label>Select one value</label>
+      <emptyitem>-- choices --</emptyitem>
+  </menulist>
+
+  <listbox ref="home">
+      <label>You leave at</label>
+      <item value="pa">Paris</item>
+      <item value="ma">Marseille</item>
+      <item value="ly">Lyon</item>
+      <item value="br">Brest</item>
+      <item value="li">Lille</item>
+      <item value="bo">Bordeaux</item>
+  </listbox>
+
+  <textarea ref="address">
+      <label>Your address</label>
+  </textarea>
+
+  <htmleditor ref="description">
+      <label>Description in html</label>
+  </htmleditor>
+
+  <wikieditor ref="wikicontent">
+      <label>a wiki editor</label>
+  </wikieditor>
+
+  <checkboxes ref="objets" required="true">
+      <label>You have </label>
+      <item value="maison">a house</item>
+      <item value="voiture">a car</item>
+      <item value="bateau">a boat</item>
+      <item value="assiette">a plate</item>
+  </checkboxes>
+
+  <!--<input ref="datenaissance" type="localedate">
+      <label>Your birthday</label>
+      <help>date format is dd/mm/yyyy</help>
+  </input>-->
+  <date ref="datenaissance">
+      <label>Your birthday</label>
+  </date>
+
+  <datetime ref="meeting">
+      <label>Next meeting</label>
+  </datetime>
+
+  <secret ref="pwd">
+    <label>A password</label>
+    <confirm>Type again the password to confirm</confirm>
+  </secret>
+
+  <upload ref="image" mimetype="image/gif;image/png;" maxsize="50000">
+     <label>Your photo (gif/png &lt; 50ko)</label>
+     <alert>The file should be a gif or png image, under 50000 octets</alert>
+  </upload>
+
+  <input ref="unwanted" required="true" type="datetime">
+      <label>This field shouldn't appear, it is deactivated</label>
+   </input>
+   <group ref="towns">
+        <label>Linked list</label>
+      <menulist ref="listdep">
+          <label>Departments list</label>
+          <item value="finistere">Finistère</item>
+          <item value="touraine">Touraine</item>
+          <item value="polynesia">Polynésie</item>
+      </menulist>
+      <menulist ref="listtown">
+          <label>Towns list, updated when department is selected</label>
+          <datasource dao="testapp~towns" method="findByDepartment"
+          criteriafrom="listdep" labelproperty="name" valueproperty="postalcode" />
+      </menulist>
+   </group>
+
+   <choice ref="task">
+      <label>Task status</label>
+      <item value="new">
+          <label>New</label>
+      </item>
+      <item value="assigned">
+          <label>Assigned</label>
+          <input ref="assignee" required="true">
+              <label>assignee name</label>
+          </input>
+      </item>
+      <item value="closed">
+          <label>Closed</label>
+          <menulist ref="task-done">
+              <label>Status</label>
+              <item value="done">Done</item>
+              <item value="cancelled">Cancelled</item>
+              <item value="later">Later</item>
+          </menulist>
+      </item>
+   </choice>
+
+   <choice ref="choice2">
+      <label>Another choice</label>
+      <item value="choice1">
+          <label>Choice 1</label>
+      </item>
+      <item value="choice2">
+          <label>Choice 2</label>
+          <input ref="choice2readonly" readonly="true">
+              <label>readonly field</label>
+          </input>
+          <datetime ref="choice2datettime">
+            <label>Datetime</label>
+         </datetime>
+          <input ref="choice2datesimplefield" type="date" required="true">
+              <label>another date</label>
+          </input>
+      </item>
+      <item value="choice3">
+          <label>Choice 3</label>
+          <datetime ref="choice2datettimerequired" required="true">
+            <label>Datetime required</label>
+         </datetime>
+      </item>
+      <item value="choice4">
+         <label>linked lists</label>
+         <menulist ref="listdep2">
+            <label>Departments list</label>
+            <item value="finistere">Finistère</item>
+            <item value="touraine">Touraine</item>
+            <item value="polynesia">Polynésie</item>
+        </menulist>
+        <menulist ref="listtown2">
+            <label>Towns list, updated when department is selected</label>
+            <datasource dao="testapp~towns" method="findByDepartment"
+            criteriafrom="listdep2" labelproperty="name" valueproperty="postalcode" />
+        </menulist>
+
+      </item>
+   </choice>
+
+  <captcha ref="cap">
+    <label>Antispam filter</label>
+  </captcha>
+
+  <reset ref="cancel">
+    <label>Cancel</label>
+  </reset>
+
+  <submit ref="valid">
+    <label>Validate</label>
+    <item value="svg">Save</item>
+    <item value="prev">Preview</item>
+  </submit>
+
+</form>

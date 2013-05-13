@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<events xmlns="http://jelix.org/ns/events/1.0">
+   <listener name="testevents">
+      <event name="TestEventWithParams" />
+      <event name="TestEvent" />
+   </listener>
+   <listener name="testdaoevents">
+      <event name="daoDeleteBefore" />
+      <event name="daoDeleteAfter" />
+      <event name="daoUpdateBefore" />
+      <event name="daoUpdateAfter" />
+      <event name="daoInsertBefore" />
+      <event name="daoInsertAfter" />
+      <event name="daoDeleteByBefore" />
+      <event name="daoDeleteByAfter" />
+   </listener>
+</events>

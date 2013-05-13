@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1" allowAnyOrigin="true">
+
+   <input ref="name" required="true">
+      <label>product name</label>
+   </input>
+
+   <input ref="price" type="decimal">
+      <label>The price</label>
+   </input>
+
+   <checkboxes ref="tag" >
+      <label>Tags</label>
+      <item value="book"/>
+      <item value="high tech" />
+      <item value="professionnal" />
+      <item value="white and black" />
+      <item value="best seller" />
+      <item value="promotion" />
+    </checkboxes>
+
+</form>

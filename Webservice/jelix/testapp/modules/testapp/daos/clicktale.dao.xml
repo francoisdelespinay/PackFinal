@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="clicktale" realname="clicktale" primarykey="cache_key,block_num" />
+    </datasources>
+    <record>
+        <property name="cache_key" fieldname="cache_key" datatype="varchar" required="true" maxlength="20"/>
+        <property name="block_num" fieldname="block_num" datatype="int" required="true"/>
+        <property name="block_contents" fieldname="block_contents" datatype="varchar" required="true" maxlength="255"/>
+        <property name="timestamp" fieldname="timestamp" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

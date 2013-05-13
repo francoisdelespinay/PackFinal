@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+
+   <input ref="name" required="true">
+      <label>Product name</label>
+   </input>
+
+   <input ref="price" type="decimal" defaultvalue="0">
+      <label>Price</label>
+   </input>
+   <checkbox ref="promo">
+      <label>Promotion</label>
+   </checkbox>
+
+   <date ref="publish_date">
+     <label>Une date</label>
+   </date>
+
+  <submit ref="valid">
+    <label>Save</label>
+  </submit>
+
+</form>

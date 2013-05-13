@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000347FF97187AA08BA16200 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407EA81475444F241DD2122 /* MobileCoreServices.framework */; };
+		020BA72F0E3C5B23E260D5DB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F4A9CEDF89E7729DCB466D /* CoreText.framework */; };
+		075C118D847051E7F3F30AC7 /* libwd170obj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF0E8F87A6233576678AB90 /* libwd170obj.a */; };
+		136B4C20904004A60240ED9A /* libwd170vm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8220585D6C41C313655016FF /* libwd170vm.a */; };
+		15EF13ABFBA04D862F8E9D34 /* libwd170core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D3456FE9AA643C344E34CE /* libwd170core.a */; };
+		16454E78675D9DCBD31A9CCB /* libwd170pnt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7EDF68B3893265BBA84B6 /* libwd170pnt.a */; };
+		17A43926C4E677AD20BB7F53 /* GiteoFinal.wil in Resources */ = {isa = PBXBuildFile; fileRef = DB52D706CA0C6B47A744217F /* GiteoFinal.wil */; };
+		20CA798F6382D60C2020AEAF /* RECH VILLE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 589E8131221ABEA4B6D91F5F /* RECH VILLE.JPG */; };
+		24DD9E8260595CD505B01DBC /* CARTE COLORÉE.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D6924C0604AA4A49C767BFDF /* CARTE COLORÉE.PNG */; };
+		24F674F399282B64CCA208AC /* AIDE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FA2551791963CE79BABC026F /* AIDE.JPG */; };
+		255F05FB9CCE97CF79E6D605 /* IOS_TOP-BAR.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 05655A3A0FE0CBF95E5A5DEB /* IOS_TOP-BAR.PNG */; };
+		2567B2F3767C4B1A65CDF799 /* libwd170xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85386100B209F5617D4328D6 /* libwd170xml.a */; };
+		2684C51C2B83465CC3E08173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C3729D76A994469A3136B1 /* main.m */; };
+		2A11CE6FA57C103FBE54AC62 /* LOGO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DFE4DBE8024332F3462FB1E8 /* LOGO.PNG */; };
+		2F3F263908A5CBA33730BFE9 /* IMAGE DE FOND AIDE 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A1CDF64FE911A9CB2152 /* IMAGE DE FOND AIDE 2.JPG */; };
+		31CC8152E82207BFE207F395 /* IMAGE DE FOND AIDE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B22F6B4A8483D69CFA6CCE9A /* IMAGE DE FOND AIDE.JPG */; };
+		353DA65E29D078F66D7B91C1 /* ISTYLE_SELECT.GIF in Resources */ = {isa = PBXBuildFile; fileRef = EA3DB1D9AD3E6F833A1B1C19 /* ISTYLE_SELECT.GIF */; };
+		360289911AF4137B9CA522AE /* libwd170xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AAA1E7F8BE2BC9AE550800 /* libwd170xml.a */; };
+		3C329D76F96A1ECA20B18E7B /* ISTYLE_BTN_APP_BACK.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFAA2BCFE0EE045DB02E2B /* ISTYLE_BTN_APP_BACK.GIF */; };
+		405C3322EC2584596362AB3B /* RECH CARTE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 116376E6573A806399E75D02 /* RECH CARTE.JPG */; };
+		40C1A4C6EFFE6F7CE700DE69 /* libwd170std.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C246DEF785BC22063483ACCB /* libwd170std.a */; };
+		48ABF04A4BBE219DE7C751A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 788D76D95EE556E7E7E2C048 /* Default.png */; };
+		4C62658E1A5BBB97914851EC /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FD1572B9BDAED795334806 /* libiconv.2.dylib */; };
+		4F39A24621F24BCE0919293A /* PROMO.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 50913093789710048CF7DEB1 /* PROMO.JPG */; };
+		50CF48362DC4090B88330E55 /* CARTE COLORÉE.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D6924C0604AA4A49C767BFDF /* CARTE COLORÉE.PNG */; };
+		574F695BC8FD10EA91633485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 788D76D95EE556E7E7E2C048 /* Default.png */; };
+		5A024C6FA5DCBD492234DE8A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB5B9E93594D7CB9A5ACCA /* ImageIO.framework */; };
+		5B96F527B157F38576A409EB /* libwd170vm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2638A7B5650921E16F108A43 /* libwd170vm.a */; };
+		621AE31EBA9243CE39E2AF6E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407EA81475444F241DD2122 /* MobileCoreServices.framework */; };
+		6220A563CFA41AEC0BEBE257 /* libwd170obj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F2A0CFE2C923EDE4242AD /* libwd170obj.a */; };
+		6F7CA03283563CD62F40E60A /* IMAGEPROMO.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167C68DF605B268055A28 /* IMAGEPROMO.JPG */; };
+		729ABD94779525D0C4DF826E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CD617021F5647A566DC832 /* CoreGraphics.framework */; };
+		72A0AA83EB4EB07ECBC82B07 /* IMAGE DE FOND AIDE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B22F6B4A8483D69CFA6CCE9A /* IMAGE DE FOND AIDE.JPG */; };
+		7650B385619DDE9558BA48F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CD617021F5647A566DC832 /* CoreGraphics.framework */; };
+		78482ABC9EC57D6FF81E4C71 /* IOS_TOP-BAR.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 05655A3A0FE0CBF95E5A5DEB /* IOS_TOP-BAR.PNG */; };
+		7DFA3437629AA0BD7A380EF1 /* ISTYLE_RADIO.GIF in Resources */ = {isa = PBXBuildFile; fileRef = D33FC8FEB7E48680C59B369A /* ISTYLE_RADIO.GIF */; };
+		80E31409483A40F9D7490105 /* ISTYLE_RADIO.GIF in Resources */ = {isa = PBXBuildFile; fileRef = D33FC8FEB7E48680C59B369A /* ISTYLE_RADIO.GIF */; };
+		886BEE1C8D17B7D001671200 /* ISTYLE_BTN_STD.GIF in Resources */ = {isa = PBXBuildFile; fileRef = F62102996565B78981B6538F /* ISTYLE_BTN_STD.GIF */; };
+		8E6052994C65E42C7937A57D /* libwd170pnt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DB12E67858E8015AD885FF /* libwd170pnt.a */; };
+		9496EBC4C35F5DB469DBABD5 /* ISTYLE_EDT.GIF in Resources */ = {isa = PBXBuildFile; fileRef = DED0A4D2F5CA52255571C4FC /* ISTYLE_EDT.GIF */; };
+		9B11C9556B40F392E6F2B32B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB5B9E93594D7CB9A5ACCA /* ImageIO.framework */; };
+		9BAAA890A2514536F2DA166A /* ISTYLE_BTN_APP_BACK.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFAA2BCFE0EE045DB02E2B /* ISTYLE_BTN_APP_BACK.GIF */; };
+		9D4A731EDEB9F21E111DE395 /* libwd170com.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3396E878B822C224B2653A9B /* libwd170com.a */; };
+		A4A1F73AD76A0519A9CC0937 /* WDAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2534E1AC6773EB682166023 /* WDAppDelegate.mm */; };
+		A7E10AB90A8B8ADEA656995A /* GiteoFinal.wil in Resources */ = {isa = PBXBuildFile; fileRef = DB52D706CA0C6B47A744217F /* GiteoFinal.wil */; };
+		ABFBF7D8098194AE12DCED72 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F4A9CEDF89E7729DCB466D /* CoreText.framework */; };
+		ACBFCF98AC000AFD7969B5FB /* IMAGEPROMO.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167C68DF605B268055A28 /* IMAGEPROMO.JPG */; };
+		B73AC50021DE76DA730ECBD5 /* libwd170core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5535840D1FC00896F37E5F32 /* libwd170core.a */; };
+		B9BA56751B75DBA9DD235874 /* libwd170mat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AACDECFAA57A014442708773 /* libwd170mat.a */; };
+		BA0EC5140FEAE74C9791DA63 /* libwd170mat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75949E1F3E1EBECE7BD92EAC /* libwd170mat.a */; };
+		BAC6472F5384BD4EFEE23607 /* IMAGE DE FOND AIDE 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A1CDF64FE911A9CB2152 /* IMAGE DE FOND AIDE 2.JPG */; };
+		D17B8742F8D499078DFD8213 /* WDAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2534E1AC6773EB682166023 /* WDAppDelegate.mm */; };
+		D1D9C7783521C48ACE203E26 /* libwd170std.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C027CF13F94F9F045ECAF50D /* libwd170std.a */; };
+		D3C828DFAB6AF0F2EF5E8D97 /* PROMO.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 50913093789710048CF7DEB1 /* PROMO.JPG */; };
+		D4EEDA9ACEF1B3BE7EB2E2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C88FE42C86BE4BF18FF73C /* Foundation.framework */; };
+		DB1FE0A0D7E87440FA7B3477 /* ISTYLE_SELECT.GIF in Resources */ = {isa = PBXBuildFile; fileRef = EA3DB1D9AD3E6F833A1B1C19 /* ISTYLE_SELECT.GIF */; };
+		E32816C48C2C9CF8C563F8FE /* RECH CARTE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 116376E6573A806399E75D02 /* RECH CARTE.JPG */; };
+		E6A2A887BEADACEFFEAE49CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA118D7FF106E114FEB64AFF /* UIKit.framework */; };
+		E74D6865D58A6EB0A2C920F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C3729D76A994469A3136B1 /* main.m */; };
+		E8DDEFD94D15B062430FFE07 /* libwd170com.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF4E73400BCBCDA90DFADCB /* libwd170com.a */; };
+		E9EE9312872C0740739AB8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C88FE42C86BE4BF18FF73C /* Foundation.framework */; };
+		EC2E8FED926EBC7FC65B0960 /* ISTYLE_BTN_STD.GIF in Resources */ = {isa = PBXBuildFile; fileRef = F62102996565B78981B6538F /* ISTYLE_BTN_STD.GIF */; };
+		F11FDDEFD869229B813EB8FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA118D7FF106E114FEB64AFF /* UIKit.framework */; };
+		F3300294B189D216E9311957 /* RECH VILLE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 589E8131221ABEA4B6D91F5F /* RECH VILLE.JPG */; };
+		F6C39D856F9B981509A907D9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FD1572B9BDAED795334806 /* libiconv.2.dylib */; };
+		F90838E2455AF0C4C7792241 /* AIDE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FA2551791963CE79BABC026F /* AIDE.JPG */; };
+		FD1C0C48A0A28C74073AF185 /* LOGO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DFE4DBE8024332F3462FB1E8 /* LOGO.PNG */; };
+		FED9C54D8CB76394C8660B5C /* ISTYLE_EDT.GIF in Resources */ = {isa = PBXBuildFile; fileRef = DED0A4D2F5CA52255571C4FC /* ISTYLE_EDT.GIF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05655A3A0FE0CBF95E5A5DEB /* IOS_TOP-BAR.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS_TOP-BAR.PNG"; sourceTree = "<group>"; };
+		116376E6573A806399E75D02 /* RECH CARTE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RECH CARTE.JPG"; sourceTree = "<group>"; };
+		2638A7B5650921E16F108A43 /* libwd170vm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170vm.a; path = libSimulator/libwd170vm.a; sourceTree = "<group>"; };
+		26D3456FE9AA643C344E34CE /* libwd170core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170core.a; path = libDevice/libwd170core.a; sourceTree = "<group>"; };
+		2B704964EA801818973C8C44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		31D7EDF68B3893265BBA84B6 /* libwd170pnt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170pnt.a; path = libSimulator/libwd170pnt.a; sourceTree = "<group>"; };
+		3396E878B822C224B2653A9B /* libwd170com.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170com.a; path = libSimulator/libwd170com.a; sourceTree = "<group>"; };
+		3AF0E8F87A6233576678AB90 /* libwd170obj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170obj.a; path = libSimulator/libwd170obj.a; sourceTree = "<group>"; };
+		4AF167C68DF605B268055A28 /* IMAGEPROMO.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMAGEPROMO.JPG; sourceTree = "<group>"; };
+		50913093789710048CF7DEB1 /* PROMO.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PROMO.JPG; sourceTree = "<group>"; };
+		5277BEC09DD8669205D8C1FF /* GiteoFinal Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiteoFinal Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5535840D1FC00896F37E5F32 /* libwd170core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170core.a; path = libSimulator/libwd170core.a; sourceTree = "<group>"; };
+		55FD1572B9BDAED795334806 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = usr/lib/libiconv.2.dylib; sourceTree = SDKROOT; };
+		589E8131221ABEA4B6D91F5F /* RECH VILLE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RECH VILLE.JPG"; sourceTree = "<group>"; };
+		6867688C798EBDB3190D05F4 /* WDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDAppDelegate.h; sourceTree = "<group>"; };
+		6E82A1CDF64FE911A9CB2152 /* IMAGE DE FOND AIDE 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMAGE DE FOND AIDE 2.JPG"; sourceTree = "<group>"; };
+		72C3729D76A994469A3136B1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75949E1F3E1EBECE7BD92EAC /* libwd170mat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170mat.a; path = libDevice/libwd170mat.a; sourceTree = "<group>"; };
+		788D76D95EE556E7E7E2C048 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8220585D6C41C313655016FF /* libwd170vm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170vm.a; path = libDevice/libwd170vm.a; sourceTree = "<group>"; };
+		8407EA81475444F241DD2122 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		85386100B209F5617D4328D6 /* libwd170xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170xml.a; path = libSimulator/libwd170xml.a; sourceTree = "<group>"; };
+		88CD617021F5647A566DC832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BEFAA2BCFE0EE045DB02E2B /* ISTYLE_BTN_APP_BACK.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ISTYLE_BTN_APP_BACK.GIF; sourceTree = "<group>"; };
+		A3FB5B9E93594D7CB9A5ACCA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A7DB12E67858E8015AD885FF /* libwd170pnt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170pnt.a; path = libDevice/libwd170pnt.a; sourceTree = "<group>"; };
+		AACDECFAA57A014442708773 /* libwd170mat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170mat.a; path = libSimulator/libwd170mat.a; sourceTree = "<group>"; };
+		B22F6B4A8483D69CFA6CCE9A /* IMAGE DE FOND AIDE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMAGE DE FOND AIDE.JPG"; sourceTree = "<group>"; };
+		B2F4A9CEDF89E7729DCB466D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C027CF13F94F9F045ECAF50D /* libwd170std.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170std.a; path = libSimulator/libwd170std.a; sourceTree = "<group>"; };
+		C246DEF785BC22063483ACCB /* libwd170std.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170std.a; path = libDevice/libwd170std.a; sourceTree = "<group>"; };
+		C2534E1AC6773EB682166023 /* WDAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WDAppDelegate.mm; sourceTree = "<group>"; };
+		CAEB59DAF4B7952CAE543CA3 /* GiteoFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiteoFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF4E73400BCBCDA90DFADCB /* libwd170com.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170com.a; path = libDevice/libwd170com.a; sourceTree = "<group>"; };
+		D0AAA1E7F8BE2BC9AE550800 /* libwd170xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170xml.a; path = libDevice/libwd170xml.a; sourceTree = "<group>"; };
+		D33FC8FEB7E48680C59B369A /* ISTYLE_RADIO.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ISTYLE_RADIO.GIF; sourceTree = "<group>"; };
+		D3C88FE42C86BE4BF18FF73C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6924C0604AA4A49C767BFDF /* CARTE COLORÉE.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CARTE COLORÉE.PNG"; sourceTree = "<group>"; };
+		DA118D7FF106E114FEB64AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB52D706CA0C6B47A744217F /* GiteoFinal.wil */ = {isa = PBXFileReference; lastKnownFileType = file; path = GiteoFinal.wil; sourceTree = "<group>"; };
+		DED0A4D2F5CA52255571C4FC /* ISTYLE_EDT.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ISTYLE_EDT.GIF; sourceTree = "<group>"; };
+		DFE4DBE8024332F3462FB1E8 /* LOGO.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.PNG; sourceTree = "<group>"; };
+		E25F2A0CFE2C923EDE4242AD /* libwd170obj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd170obj.a; path = libDevice/libwd170obj.a; sourceTree = "<group>"; };
+		EA3DB1D9AD3E6F833A1B1C19 /* ISTYLE_SELECT.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ISTYLE_SELECT.GIF; sourceTree = "<group>"; };
+		F62102996565B78981B6538F /* ISTYLE_BTN_STD.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ISTYLE_BTN_STD.GIF; sourceTree = "<group>"; };
+		FA2551791963CE79BABC026F /* AIDE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AIDE.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3602AF603F01CA7C6E5B148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000347FF97187AA08BA16200 /* MobileCoreServices.framework in Frameworks */,
+				7650B385619DDE9558BA48F0 /* CoreGraphics.framework in Frameworks */,
+				E6A2A887BEADACEFFEAE49CB /* UIKit.framework in Frameworks */,
+				5A024C6FA5DCBD492234DE8A /* ImageIO.framework in Frameworks */,
+				E9EE9312872C0740739AB8B1 /* Foundation.framework in Frameworks */,
+				020BA72F0E3C5B23E260D5DB /* CoreText.framework in Frameworks */,
+				4C62658E1A5BBB97914851EC /* libiconv.2.dylib in Frameworks */,
+				5B96F527B157F38576A409EB /* libwd170vm.a in Frameworks */,
+				075C118D847051E7F3F30AC7 /* libwd170obj.a in Frameworks */,
+				B9BA56751B75DBA9DD235874 /* libwd170mat.a in Frameworks */,
+				2567B2F3767C4B1A65CDF799 /* libwd170xml.a in Frameworks */,
+				D1D9C7783521C48ACE203E26 /* libwd170std.a in Frameworks */,
+				9D4A731EDEB9F21E111DE395 /* libwd170com.a in Frameworks */,
+				16454E78675D9DCBD31A9CCB /* libwd170pnt.a in Frameworks */,
+				B73AC50021DE76DA730ECBD5 /* libwd170core.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B52A5BF00A1BE00FA75D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621AE31EBA9243CE39E2AF6E /* MobileCoreServices.framework in Frameworks */,
+				729ABD94779525D0C4DF826E /* CoreGraphics.framework in Frameworks */,
+				F11FDDEFD869229B813EB8FA /* UIKit.framework in Frameworks */,
+				9B11C9556B40F392E6F2B32B /* ImageIO.framework in Frameworks */,
+				D4EEDA9ACEF1B3BE7EB2E2B3 /* Foundation.framework in Frameworks */,
+				ABFBF7D8098194AE12DCED72 /* CoreText.framework in Frameworks */,
+				F6C39D856F9B981509A907D9 /* libiconv.2.dylib in Frameworks */,
+				136B4C20904004A60240ED9A /* libwd170vm.a in Frameworks */,
+				6220A563CFA41AEC0BEBE257 /* libwd170obj.a in Frameworks */,
+				BA0EC5140FEAE74C9791DA63 /* libwd170mat.a in Frameworks */,
+				360289911AF4137B9CA522AE /* libwd170xml.a in Frameworks */,
+				40C1A4C6EFFE6F7CE700DE69 /* libwd170std.a in Frameworks */,
+				E8DDEFD94D15B062430FFE07 /* libwd170com.a in Frameworks */,
+				8E6052994C65E42C7937A57D /* libwd170pnt.a in Frameworks */,
+				15EF13ABFBA04D862F8E9D34 /* libwd170core.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215583BCF3E10AF2EDCB5EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8407EA81475444F241DD2122 /* MobileCoreServices.framework */,
+				88CD617021F5647A566DC832 /* CoreGraphics.framework */,
+				DA118D7FF106E114FEB64AFF /* UIKit.framework */,
+				A3FB5B9E93594D7CB9A5ACCA /* ImageIO.framework */,
+				D3C88FE42C86BE4BF18FF73C /* Foundation.framework */,
+				B2F4A9CEDF89E7729DCB466D /* CoreText.framework */,
+				55FD1572B9BDAED795334806 /* libiconv.2.dylib */,
+				2638A7B5650921E16F108A43 /* libwd170vm.a */,
+				8220585D6C41C313655016FF /* libwd170vm.a */,
+				3AF0E8F87A6233576678AB90 /* libwd170obj.a */,
+				E25F2A0CFE2C923EDE4242AD /* libwd170obj.a */,
+				AACDECFAA57A014442708773 /* libwd170mat.a */,
+				75949E1F3E1EBECE7BD92EAC /* libwd170mat.a */,
+				85386100B209F5617D4328D6 /* libwd170xml.a */,
+				D0AAA1E7F8BE2BC9AE550800 /* libwd170xml.a */,
+				C027CF13F94F9F045ECAF50D /* libwd170std.a */,
+				C246DEF785BC22063483ACCB /* libwd170std.a */,
+				3396E878B822C224B2653A9B /* libwd170com.a */,
+				CAF4E73400BCBCDA90DFADCB /* libwd170com.a */,
+				31D7EDF68B3893265BBA84B6 /* libwd170pnt.a */,
+				A7DB12E67858E8015AD885FF /* libwd170pnt.a */,
+				5535840D1FC00896F37E5F32 /* libwd170core.a */,
+				26D3456FE9AA643C344E34CE /* libwd170core.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60507D4C4EFDE219945DE203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB59DAF4B7952CAE543CA3 /* GiteoFinal.app */,
+				5277BEC09DD8669205D8C1FF /* GiteoFinal Simulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E036665CE7F7598381A41D83 = {
+			isa = PBXGroup;
+			children = (
+				F9EB2B32ED8DF8E4FDAA8B25 /* Sources */,
+				215583BCF3E10AF2EDCB5EA1 /* Frameworks */,
+				60507D4C4EFDE219945DE203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9EB2B32ED8DF8E4FDAA8B25 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				72C3729D76A994469A3136B1 /* main.m */,
+				6867688C798EBDB3190D05F4 /* WDAppDelegate.h */,
+				C2534E1AC6773EB682166023 /* WDAppDelegate.mm */,
+				2B704964EA801818973C8C44 /* Info.plist */,
+				788D76D95EE556E7E7E2C048 /* Default.png */,
+				4AF167C68DF605B268055A28 /* IMAGEPROMO.JPG */,
+				05655A3A0FE0CBF95E5A5DEB /* IOS_TOP-BAR.PNG */,
+				8BEFAA2BCFE0EE045DB02E2B /* ISTYLE_BTN_APP_BACK.GIF */,
+				F62102996565B78981B6538F /* ISTYLE_BTN_STD.GIF */,
+				D33FC8FEB7E48680C59B369A /* ISTYLE_RADIO.GIF */,
+				EA3DB1D9AD3E6F833A1B1C19 /* ISTYLE_SELECT.GIF */,
+				DED0A4D2F5CA52255571C4FC /* ISTYLE_EDT.GIF */,
+				6E82A1CDF64FE911A9CB2152 /* IMAGE DE FOND AIDE 2.JPG */,
+				B22F6B4A8483D69CFA6CCE9A /* IMAGE DE FOND AIDE.JPG */,
+				FA2551791963CE79BABC026F /* AIDE.JPG */,
+				50913093789710048CF7DEB1 /* PROMO.JPG */,
+				116376E6573A806399E75D02 /* RECH CARTE.JPG */,
+				589E8131221ABEA4B6D91F5F /* RECH VILLE.JPG */,
+				D6924C0604AA4A49C767BFDF /* CARTE COLORÉE.PNG */,
+				DFE4DBE8024332F3462FB1E8 /* LOGO.PNG */,
+				DB52D706CA0C6B47A744217F /* GiteoFinal.wil */,
+			);
+			name = Sources;
+			path = GiteoFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554DF6D221BDCEA642E90BD9 /* GiteoFinal Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FD737691E20E5AF43E4FB7 /* Build configuration list for PBXNativeTarget "GiteoFinal Simulator" */;
+			buildPhases = (
+				3F348744603F0E77243CB18E /* Resources */,
+				ABF43694DD582409E64A0CA0 /* Sources */,
+				A3602AF603F01CA7C6E5B148 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GiteoFinal Simulator";
+			productName = GiteoFinal;
+			productReference = 5277BEC09DD8669205D8C1FF /* GiteoFinal Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3E9BFE0C66384F009D1E554 /* GiteoFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B14256B9209F9A56127DAA5 /* Build configuration list for PBXNativeTarget "GiteoFinal" */;
+			buildPhases = (
+				76B649BA61ABEC545B3CDD63 /* Resources */,
+				23E20910F405641CA69B5F9D /* Sources */,
+				E2B52A5BF00A1BE00FA75D16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiteoFinal;
+			productName = GiteoFinal;
+			productReference = CAEB59DAF4B7952CAE543CA3 /* GiteoFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4C2406A2ADD2541E178CF6D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1BD94F76FB620ACB55125458 /* Build configuration list for PBXProject "GiteoFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				"fr-FR",
+			);
+			mainGroup = E036665CE7F7598381A41D83;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E9BFE0C66384F009D1E554 /* GiteoFinal */,
+				554DF6D221BDCEA642E90BD9 /* GiteoFinal Simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F348744603F0E77243CB18E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48ABF04A4BBE219DE7C751A6 /* Default.png in Resources */,
+				6F7CA03283563CD62F40E60A /* IMAGEPROMO.JPG in Resources */,
+				78482ABC9EC57D6FF81E4C71 /* IOS_TOP-BAR.PNG in Resources */,
+				9BAAA890A2514536F2DA166A /* ISTYLE_BTN_APP_BACK.GIF in Resources */,
+				EC2E8FED926EBC7FC65B0960 /* ISTYLE_BTN_STD.GIF in Resources */,
+				80E31409483A40F9D7490105 /* ISTYLE_RADIO.GIF in Resources */,
+				DB1FE0A0D7E87440FA7B3477 /* ISTYLE_SELECT.GIF in Resources */,
+				FED9C54D8CB76394C8660B5C /* ISTYLE_EDT.GIF in Resources */,
+				BAC6472F5384BD4EFEE23607 /* IMAGE DE FOND AIDE 2.JPG in Resources */,
+				31CC8152E82207BFE207F395 /* IMAGE DE FOND AIDE.JPG in Resources */,
+				F90838E2455AF0C4C7792241 /* AIDE.JPG in Resources */,
+				4F39A24621F24BCE0919293A /* PROMO.JPG in Resources */,
+				405C3322EC2584596362AB3B /* RECH CARTE.JPG in Resources */,
+				20CA798F6382D60C2020AEAF /* RECH VILLE.JPG in Resources */,
+				24DD9E8260595CD505B01DBC /* CARTE COLORÉE.PNG in Resources */,
+				FD1C0C48A0A28C74073AF185 /* LOGO.PNG in Resources */,
+				17A43926C4E677AD20BB7F53 /* GiteoFinal.wil in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B649BA61ABEC545B3CDD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574F695BC8FD10EA91633485 /* Default.png in Resources */,
+				ACBFCF98AC000AFD7969B5FB /* IMAGEPROMO.JPG in Resources */,
+				255F05FB9CCE97CF79E6D605 /* IOS_TOP-BAR.PNG in Resources */,
+				3C329D76F96A1ECA20B18E7B /* ISTYLE_BTN_APP_BACK.GIF in Resources */,
+				886BEE1C8D17B7D001671200 /* ISTYLE_BTN_STD.GIF in Resources */,
+				7DFA3437629AA0BD7A380EF1 /* ISTYLE_RADIO.GIF in Resources */,
+				353DA65E29D078F66D7B91C1 /* ISTYLE_SELECT.GIF in Resources */,
+				9496EBC4C35F5DB469DBABD5 /* ISTYLE_EDT.GIF in Resources */,
+				2F3F263908A5CBA33730BFE9 /* IMAGE DE FOND AIDE 2.JPG in Resources */,
+				72A0AA83EB4EB07ECBC82B07 /* IMAGE DE FOND AIDE.JPG in Resources */,
+				24F674F399282B64CCA208AC /* AIDE.JPG in Resources */,
+				D3C828DFAB6AF0F2EF5E8D97 /* PROMO.JPG in Resources */,
+				E32816C48C2C9CF8C563F8FE /* RECH CARTE.JPG in Resources */,
+				F3300294B189D216E9311957 /* RECH VILLE.JPG in Resources */,
+				50CF48362DC4090B88330E55 /* CARTE COLORÉE.PNG in Resources */,
+				2A11CE6FA57C103FBE54AC62 /* LOGO.PNG in Resources */,
+				A7E10AB90A8B8ADEA656995A /* GiteoFinal.wil in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E20910F405641CA69B5F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2684C51C2B83465CC3E08173 /* main.m in Sources */,
+				A4A1F73AD76A0519A9CC0937 /* WDAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF43694DD582409E64A0CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74D6865D58A6EB0A2C920F3 /* main.m in Sources */,
+				D17B8742F8D499078DFD8213 /* WDAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16023C322408748CCE22BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv6;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GiteoFinal\"";
+				INFOPLIST_FILE = GiteoFinal/Info.plist;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/libDevice\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7C24692EF053B0AFF8684076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95BC0757DD31931A9C078670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD7F486A83058231AE71867E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GiteoFinal\"";
+				INFOPLIST_FILE = GiteoFinal/Info.plist;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/libSimulator\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E93C3329872F59FC4CB1F360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GiteoFinal\"";
+				INFOPLIST_FILE = GiteoFinal/Info.plist;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/libSimulator\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC8BD62117008903FA6D3CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv6;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GiteoFinal\"";
+				INFOPLIST_FILE = GiteoFinal/Info.plist;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/libDevice\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B14256B9209F9A56127DAA5 /* Build configuration list for PBXNativeTarget "GiteoFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8BD62117008903FA6D3CAD /* Debug */,
+				16023C322408748CCE22BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD94F76FB620ACB55125458 /* Build configuration list for PBXProject "GiteoFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C24692EF053B0AFF8684076 /* Debug */,
+				95BC0757DD31931A9C078670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FD737691E20E5AF43E4FB7 /* Build configuration list for PBXNativeTarget "GiteoFinal Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C3329872F59FC4CB1F360 /* Debug */,
+				DD7F486A83058231AE71867E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4C2406A2ADD2541E178CF6D /* Project object */;
+}

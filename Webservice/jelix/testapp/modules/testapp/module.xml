@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module xmlns="http://jelix.org/ns/module/1.0">
+    <info id="testapp@testapp.jelix.org" name="testapp">
+       <version date="2013-03-22 00:07">1.4.4</version>
+        <label>testapp</label>
+        <description>Test application</description>
+        <license URL=""></license>
+        <copyright>Copyright 2006-2011 jelix.org</copyright>
+        <creator name="Laurent Jouanneau" email="laurent@jelix.org" active="true" />
+        <!--<contributor name="hisname" email="hisemail@yoursite.undefined" active="true" since="" role=""/>-->
+        <homepageURL>http://jelix.org</homepageURL>
+    </info>
+    <dependencies>
+       <jelix minversion="1.4.4" maxversion="1.4.*" />
+       <module name="jelix_tests" minversion="1.4.4" maxversion="1.4.4" />
+    </dependencies>
+</module>
